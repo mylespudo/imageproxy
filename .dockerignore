@@ -1,0 +1,20 @@
+# Build artifacts
+imageproxy
+health-check
+
+# Vendor directory (use go mod download instead)
+vendor/
+
+# Documentation and other files
+*.md
+LICENSE
+docs/
+.github/
+.golangci.yml
+
+# Test files
+*_test.go
+
+# Git
+.git
+.gitignore
